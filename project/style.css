@@ -1,0 +1,44 @@
+body {
+    background-color: #252432;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+
+.wrapper > *{
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+}
+
+.header {
+    background-color: #ffcc00;
+    height: 120px;
+}
+
+.footer {
+    background-color: #66ccff;
+    height: 80px;
+}
+
+.main {
+    background-color: #ff6667;
+    height: 300px;
+}
+
+#side_1 {
+    background-color: #65cc69;
+}
+
+#side_2 {
+    background-color: #9999ff;
+}
+
+.side {
+    height: 80px;
+}
