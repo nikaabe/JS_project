@@ -128,6 +128,11 @@
   #container2, #container4 {
     background-color: #22b14c;
   }
+
+  .slider-container {
+    border: solid 1px;
+    max-width: 800px;
+  }
   
   @media (max-width: 768px) {
     header .nav-links {
