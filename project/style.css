@@ -102,6 +102,7 @@
   .main-left .container {
     background-color: #f4f4f4;
     padding: 20px;
+    height: 100px;
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -126,12 +127,73 @@
 
   
   #container2, #container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #22b14c;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
   }
 
   .slider-container {
-    border: solid 1px;
     max-width: 800px;
+    margin-top: 40px;
+  }
+
+  .book-row-container {
+    display: flex;
+    transition: transform 1s ease-in-out;
+  }
+
+  .book-row {
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+  }
+
+  .book-row img {
+    width: 150px;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+  }
+
+  .book {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    box-shadow: 10px 10px 10px gray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .bookLabel {
+    background-color: rgba(179, 167, 167, 0.407);
+    width: auto;
+    height: 90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  button {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .forward {
+    margin-left: 10px;
+  }
+
+  .buttons {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
   }
   
   @media (max-width: 768px) {
@@ -166,6 +228,10 @@
     .search-container {
       width: 100%;
       justify-content: flex-start;
+    }
+
+    .book-row img {
+      width: 120px;
     }
   }
   
