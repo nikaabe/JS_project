@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
 </head>
+
 <body>
   <header>
     <div class="nav-links">
@@ -28,7 +29,7 @@
       <a href="">სათამაშოები</a >
     </div>
     <div class="cat_left">
-      <input class="textbox" type="text" placeholder="რისი მოძებნა გსურს?">
+      <input class="textbox-search" type="text" placeholder="რისი მოძებნა გსურს?">
       <div class="cube-icon"></div>
       <div class="cube-icon" id="cube2"></div>
     </div>
@@ -47,8 +48,9 @@
     </div>
   </main>
 
-  <!--slaideri, maintan ver vabam jer-->
-  <div class="slider-container">
+  <!--seqciad vaqcev-->
+  <span id="section1" style="display: block;">
+    <div class="slider-container">
       <div class="book-row-container">
         <div class="book-row">
           <div class="book">
@@ -125,12 +127,13 @@
           </div>
         </div>
       </div>
-  </div>
-  <!--buttons-->
-  <div class="buttons">
-    <button class="back"> < </button>
-    <button class="forward"> > </button>
-  </div>
+    </div>
+    <!--buttons-->
+    <div class="buttons">
+        <button class="back"> < </button>
+        <button class="forward"> > </button>
+    </div>
+  </span>
 
   <footer>
     <div class="contact-info">
@@ -139,6 +142,6 @@
       <p>ფილიალი: მურმან ღობეყორეგლეჯიაშვილის ქუჩა, თბილისი</p>
     </div>
   </footer>
-</body>
+
 <script src="script.js"></script>
 </html>
