@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <div class="input-container">
+        <div class="input-forms">
+            <div class="input">
+                <input type="text" id="input1">
+                <label for="input1">ელფოსტა</label>
+                <span id="gmail-error" class="error" style="display: none;">გთხოვთ შეიყვანეთ ელფოსტა</span>
+                <span id="invalid-gmail" class="error" style="display: none;">არასწორი ელფოსტის ფორმა</span>
+            </div>
+            <div class="input">
+                <input type="password" id="input2">
+                <label for="input2">პაროლი</label>
+                <span id="empty-password" class = 'error' style="display: none;">გთხოვთ შეიყვანეთ პაროლი</span>
+                <span id="weak-password" style="display: none;">სუსტი პაროლი</span>
+                <span id="medium-password" style="display: none;">საშუალოდ სუსტი პაროლი</span>
+                <span id="strong-password" style="display: none;">ძლიერი პაროლი</span>
+            </div>
+            <div class="input">
+                <input type="password" id="input3">
+                <label for="input3">დაადასტურეთ პაროლი</label>
+                
+            </div>
+            <div class="input">
+                <input type="date"  min="2025-01-01" id="date">
+                <label for="input4">დაბადების თარიღი</label>
+                <span id="date-error" class="error" style="display: none;">გთხოვთ შეიყვანეთ დაბადების თარიღი</span>
+            </div>
+            <div class="input">
+                <input type="text" id="input5">
+                <label for="input5">მომხმარებლის სახელი</label>
+            </div>
+            <div class="input">
+                <input type="text" id="input6">
+                <label for="input6">ქვეყანა</label>
+            </div>
+            <div class="input">
+                <input type="text" id="input7">
+                <label for="input7">ქალაქი</label>
+            </div>
+            <div class="input">
+                <input type="text" id="input8">
+                <label for="input8">ტელეფონის ნომერი</label>
+            </div>
+        </div>
+        <button class="register" id="registerButton">რეგისტრაცია</button>
+    </div>
+    
+</body>
+</html>
